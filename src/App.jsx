@@ -11,6 +11,7 @@ function App() {
     function handleToggleModal(){
         setShowModal(!showModal)
     }
+    
     useEffect(() => {
         async function fetchAPIData() {
             const NASA_KEY = import.meta.env.VITE_NASA_API_KEY
